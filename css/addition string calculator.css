@@ -1,0 +1,109 @@
+/* File Name: calc.css
+   Author: Alexander Parcasio IV
+   Email: parcasioalexander@outlook.com
+   Purpose: Cascading Style Sheet for index.html
+   Description: Long links goes beyond coding standards.
+*/
+
+body {
+   margin: 0 0 0 0;
+   font-family: "Times New Roman";
+   background: no-repeat center center fixed;
+   background-size: cover;
+}
+
+#testsGroup {
+   background-color: rgba(30, 30, 30, 0.4);
+   color: white;
+   display: block;
+   width: 70%;
+   margin: 5% 0 5% 0;
+   padding: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   -webkit-filter: drop-shadow(0px 0px 5px black);
+            filter: drop-shadow(0px 0px 5px black);
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+#testsGroup button {
+   margin: 20px 0px 40px 0px;
+   padding: 10px;
+   font-size: 20px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+#testsGroup .Test {
+   color: black;
+   text-align: left;
+   margin: 0px 20px 20px 20px;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 5px;
+   -webkit-box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.6);
+            box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.6);
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+#testsGroup .Test:hover {
+   -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+            box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+   -webkit-filter: drop-shadow(0px 0px 5px black);
+            filter: drop-shadow(0px 0px 5px black);
+   margin: 0px 15px 15px 15px ;
+   padding: 20px ;
+}
+
+#calculator {
+   background-color: rgba(30, 30, 30, 0.6);
+   color: white;
+   display: block;
+   width: 70%;
+   margin: 5% 0 5% 0;
+   padding: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   -webkit-filter: drop-shadow(0px 0px 5px black);
+            filter: drop-shadow(0px 0px 5px black);
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+#calculator h1, #calculator h2 {
+   font-weight: 600;
+}
+
+#calculator input {
+   width: 50%;
+   padding: 10px;
+   border-radius: 5%;
+}
+
+#calculator button {
+   margin-top: 20px;
+   padding: 20px;
+   font-size: 30px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+#calculator button:hover, #testsGroup button:hover {
+   -webkit-filter: drop-shadow(0px 0px 2px white);
+            filter: drop-shadow(0px 0px 2px white);
+}
+
+#testsGroup:hover, #testsGroup button:hover, #calculator:hover, #calculator button:hover {
+   border-top-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
