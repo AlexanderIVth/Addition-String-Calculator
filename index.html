@@ -1,0 +1,33 @@
+<!--
+Website: Addition String Calculator
+Author: Alexander Parcasio IV
+Email: parcasioalexander@outlook.com
+-->
+<!DOCTYPE html>
+<html lang="en,tl">
+   <head>
+      <meta charset="utf-8">
+      <title>String Calculator</title>
+      <!--Calculator Script-->
+      <script src="js/addition string calculator.js"></script>
+      <!--Script for Test Section-->
+      <script src="js/addition string calculator test.js"></script>
+      <!--CSS style-->
+      <link rel="stylesheet" type="text/css" href="css/addition string calculator.css">
+   </head>
+   <body>
+      <center>
+         <div id="calculator">
+               <h1>Input the String to Calculate:</h1>
+               <input type="text" name="inputString" id="inputString" placeholder="//[delimeter]\n[separated numbers]">
+               <br/>
+               <button onclick="calculate()">Calculate</button>
+               <h2>Result: <span id="result"></span></h2>
+         </div>
+         <div id="testsGroup">
+               <h1>String Calculator Tests</h1>
+               <button id="btn_Test" onclick="run_Tests()" disabled="true">Start Tests</button>
+         </div>
+      </center>
+   </body>
+</html>
